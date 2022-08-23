@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        canvasColor: Color.fromARGB(255, 170, 255, 0)
+        canvasColor: const Color.fromARGB(255, 170, 255, 0)
       ),
       home: MymusicList()
     );
